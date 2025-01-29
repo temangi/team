@@ -1,0 +1,27 @@
+.read{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 150px;
+    gap: 30px;
+    h1{
+        font-size: 40px;
+    }
+    main{
+        display: flex;
+        gap: 15px;
+        .readLeft{
+            width: 45%;
+            background: #93A27C;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            border-radius: 15px;
+            color: white;
+        }
+        .readRight{
+            width: 55%;
+        }
+    }
+}
+

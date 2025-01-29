@@ -1,5 +1,5 @@
 import './App.css'
-import Header from './components/Header/Header'
+import Read from './components/Read/Read'
 import Main from './components/Main/Main'
 
 
@@ -9,6 +9,7 @@ function App() {
   return (
     <>
     <Main/>
+    <Read/>
     </>
   )
 }
