@@ -5,6 +5,7 @@ import person from "../../assets/Bag.svg"
 import bag from "../../assets/korzina.svg"
 import scss from "./Header.module.scss"
 
+
 function Header() {
   return (
     <section className={scss.Header}>
@@ -21,10 +22,6 @@ function Header() {
           <a href=""><img src={person} alt="" /></a>
         </span>
       </header>
-      <main>
-        <h1></h1>
-        
-      </main>
     </section>
   )
 }

@@ -1,6 +1,6 @@
 import './App.css'
 import Read from './components/Read/Read'
-import Header from './components/Header/Header'
+import Main from './components/Main/Main'
 
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-    <Header/>
+    <Main/>
     <Read/>
     </>
   )
