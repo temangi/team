@@ -1,0 +1,16 @@
+.btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding: 5px 15px;
+    border: 1px solid #B4B4B4;
+    border-radius: 50px;
+    cursor: pointer;
+    div{
+        background: #93A27C;
+        border-radius: 50%;
+        border: none;
+        padding: 10px 15px;
+    }
+}
