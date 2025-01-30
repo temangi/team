@@ -1,11 +1,10 @@
 .categoryList {
-  width: 29%;
-  height: 59vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   border-radius: 20px;
   position: relative;
+  padding-top: 80% ;
 
   &::after {
     content: "";
@@ -31,5 +30,10 @@
       color: white;
       z-index: 1;
     }
+  }
+}
+@media (max-width : 768px) {
+  .categoryList{
+    padding-top: 50%;
   }
 }
