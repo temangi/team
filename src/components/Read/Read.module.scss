@@ -1,14 +1,15 @@
 .read{
     display: flex;
     flex-direction: column;
-    padding: 50px 150px;
-    gap: 30px;
+    padding: 100px 50px;
+    gap: 50px;
     h1{
         font-size: 40px;
     }
     main{
         display: flex;
         gap: 15px;
+        height: 70vh;
         .readLeft{
             width: 45%;
             background: #93A27C;
@@ -21,7 +22,33 @@
         }
         .readRight{
             width: 55%;
+            background: url("../../assets/cooking.svg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            align-items: flex-end;
+            justify-content: flex-end;
+            padding: 20px;
+            border-radius: 15px;
         }
     }
 }
 
+@media (max-width : 768px) {
+    .read{
+        h1{
+            font-size: 30px;
+        }
+        main{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: 100%;
+            .readLeft, .readRight{
+                width: 100%;
+                height: 50vh;
+            }
+        }
+    }
+}
