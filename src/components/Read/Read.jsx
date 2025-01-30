@@ -3,6 +3,7 @@ import minus from "../../assets/minus.svg";
 import cooking from "../../assets/cooking.svg";
 import scss from "./Read.module.scss";
 import strelka from "../../assets/strelka.svg";
+import Button from "../Button/Button";
 
 function Read() {
   return (
@@ -18,7 +19,9 @@ function Read() {
           индивидуальный подход: всегда готовы помочь найти альтернативу,
           закрыть срочную потребность или предложить уникальное решение.
         </p>
-        <img className={scss.readRight} src={cooking} alt="" />
+        <div className={scss.readRight}>
+          <Button width="200px" title={"Читать далее"}/>
+        </div>
       </main>
     </section>
   );
