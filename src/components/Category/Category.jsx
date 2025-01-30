@@ -35,7 +35,7 @@ function Category() {
         Просмотр товаров <br />
         по <span>категориям</span>
       </h1>
-      <main>{arrCards}</main>
+      <article>{arrCards}</article>
     </article>
   );
 }
