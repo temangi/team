@@ -1,0 +1,32 @@
+.slider {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    min-width: 0; 
+    padding: 50px 0 ;
+    h1{
+        width: 100%;
+        text-align: center;
+        font-size: 56px;
+    }
+  
+    .sliderImg {
+      filter: brightness(50%);
+      mix-blend-mode: multiply;
+    }
+  
+    .slick-slider {
+      width: 100%; 
+      display: block !important;
+    }
+  
+    .slick-slide {
+      padding: 0 10px;
+    }
+  
+    .slick-track {
+      display: flex;
+      align-items: center;
+    }
+  }
+  
