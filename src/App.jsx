@@ -1,14 +1,19 @@
 import './App.css'
-import Button from './components/Button/Button'
 import Category from './components/Category/Category'
+import Read from './components/Read/Read'
+import Main from './components/Main/Main'
+
+
 
 function App() {
   
 
   return (
     <>
-      <Button width="15%" title={"Читать далее"}/>
-      <Category/>
+    <Main/>
+    <Read/>
+    <Category/>
+
     </>
   )
 }
