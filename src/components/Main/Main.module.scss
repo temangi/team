@@ -1,0 +1,54 @@
+.Main {
+  background: url(../../assets/fonpic.svg);
+  background-position: center;
+  background-size: cover;
+  main {
+    display: flex;
+    flex-direction: column;
+    padding: 10% 50px;
+    gap: 100px;
+    h1 {
+      font-size: 50px;
+      color: white;
+    }
+    div {
+      display: flex;
+      gap: 20px;
+      input {
+        width: 30%;
+        border-radius: 15px;
+        border: none;
+        padding-left: 20px;
+      }
+    }
+  }
+}
+
+@media (max-width : 768px) {
+    .Main{
+      main{
+
+        h1{
+          font-size: 50px;
+          padding: 20px 60px;
+          text-align: center;
+        }
+
+        div{
+          display: flex;
+          flex-direction: column;
+          button{
+            width: 100%;
+            height: 50px;
+            border-radius: 15px;
+            font-size: 16px;
+          }
+          input{
+            width: 100%;
+            height: 50px;
+            font-size: 16px;
+          }
+        }
+      }
+    }
+}

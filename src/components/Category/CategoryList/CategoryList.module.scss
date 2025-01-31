@@ -1,0 +1,39 @@
+.categoryList {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  border-radius: 20px;
+  position: relative;
+  padding-top: 80% ;
+
+  &::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 39.17%,
+      #000000 90.83%
+    );
+    border-radius: 20px;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 20px 20px 20px;
+    h1 {
+      width: 80%;
+      word-wrap: break-word;
+      font-size: 25px;
+      color: white;
+      z-index: 1;
+    }
+  }
+}
+@media (max-width : 768px) {
+  .categoryList{
+    padding-top: 50%;
+  }
+}
