@@ -17,7 +17,6 @@ function App() {
     <Read/>
     <Category/>
     <Why/>
-    <Footer/>
     <Componi/>
     <Trust/>
     </>
