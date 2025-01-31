@@ -17,6 +17,7 @@ function App() {
     <Trust/>
     <Category/>
     <Why/>
+    <Footer/>
     </>
   )
 }
