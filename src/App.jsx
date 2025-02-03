@@ -6,6 +6,7 @@ import Componi from './components/Componi/Componi'
 import Trust from './components/Trust/Trust'
 import Main from './components/Main/Main'
 import Why from './components/Why/Why'
+import Footer from './components/Footer/Footer'
 
 
 
@@ -19,6 +20,7 @@ function App() {
     <Why/>
     <Componi/>
     <Trust/>
+    <Footer/>
     </>
   )
 }
