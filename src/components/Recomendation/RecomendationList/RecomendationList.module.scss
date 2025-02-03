@@ -1,0 +1,58 @@
+.recomendationList{
+    background-color: white;
+    padding: 15px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    p{
+        font-size: 14px;
+    }
+    span{
+        color: #797979;
+        font-size: 12px;
+    }
+    div{
+        display: flex;
+        align-items: center;
+        nav{
+            display: flex;
+            align-items: center;
+            padding: 5px;
+            justify-content: space-between;
+            gap: 15px;
+            border: #EEEEEE 1px solid;
+            border-radius: 50px;
+            span{
+                color: #797979;
+                font-size: 15px;
+            }
+            p{
+                border-radius: 50%;
+                background-color: #ECECEC;
+                padding: 5px 12px;
+                font-size: 20px;
+                font-weight: 600;
+                cursor: pointer;
+            }
+        }
+    }
+    img{
+        border-radius: 8%;
+        width: 100%;
+    }
+}
+
+@media (max-width : 768px) {
+    .recomendationList{
+        gap: 10px;
+        div{
+           nav{
+            transform: scale(0.8);
+           }
+        }
+        p{
+            font-size: 12px;
+        }
+    }
+}

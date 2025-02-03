@@ -5,6 +5,7 @@ import Header from './components/Header/Header'
 import Componi from './components/Componi/Componi'
 import Trust from './components/Trust/Trust'
 import Main from './components/Main/Main'
+import Recomendation from './components/Recomendation/Recomendation'
 import Why from './components/Why/Why'
 
 
@@ -15,6 +16,8 @@ function App() {
     <Main/>
     <Read/>
     <Category/>
+    <Trust/>
+    <Recomendation/>
     <Why/>
     <Componi/>
     <Trust/>
