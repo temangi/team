@@ -7,6 +7,8 @@ import Trust from './components/Trust/Trust'
 import Main from './components/Main/Main'
 import Recomendation from './components/Recomendation/Recomendation'
 import Why from './components/Why/Why'
+import Footer from './components/Footer/Footer'
+
 
 
 function App() {
@@ -21,6 +23,7 @@ function App() {
     <Why/>
     <Componi/>
     <Trust/>
+    <Footer/>
     </>
   )
 }
