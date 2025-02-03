@@ -7,11 +7,11 @@ function Main() {
   return (
     <section className={scss.Main}>
       <Header/>
-      <main>
+      <main> 
         <h1>Ваш путеводитель <br /> в области сырья</h1>
         <div>
           <input type="" placeholder='Найти...' />
-          <Button width="18%" title="Заказать звонок"/>
+          <Button  title="Заказать звонок"/>
         </div>
       </main>
     </section>
